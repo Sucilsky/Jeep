@@ -1,0 +1,59 @@
+@import "bootstrap/bootstrap.less";
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+// @colorBrand: 			#ffb302; // Gold
+// @colorAccent: 			#ff9d01; // Darker gold
+
+// @colorPrimary: 			#000;
+// @colorSecondary: 		#ACACAC;
+
+// @linkColor:             @colorAccent;
+// @linkColorHover:        darken(@linkColor, 15%);
+
+
+/* == Type Variables & mixins
+===================================================== */
+.lightHeading {
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+/* == Navbar Variables
+===================================================== */
+
+@navbarHeight: 60px;
+
+@navbarInverseBackground:                #000;
+@navbarInverseBackgroundHighlight:       #333;
+// @navbarInverseBorder:                    #353535;
+
+// @navbarInverseText:                      @grayLight;
+// @navbarInverseLinkColor:                 @grayLight;
+// @navbarInverseLinkColorHover:            @white;
+// @navbarInverseLinkColorActive:           @navbarInverseLinkColorHover;
+// @navbarInverseLinkBackgroundHover:       transparent;
+// @navbarInverseLinkBackgroundActive:      @navbarInverseBackground;
+
+// @navbarInverseBrandColor:                @navbarInverseLinkColor;
+
+
+/* == Views and Components
+===================================================== */
+
+@import "components/header.less";
+@import "components/carousel.less";
+@import "components/footer.less";
+
+@import "views/home.less";
+@import "views/vehicle.less";
+
+
+
+
+.test {
+	background: rgba(255,0,0,0.5)
+}
