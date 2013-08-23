@@ -9,3 +9,69 @@
 		right: 0;
 	}
 }
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2; 
+}
+
+#colorpicker li {
+	background: url(../img/wrangler/colorizer/sprite_colorizer.png);
+	height: 40px;
+	width: 40px;
+}
+
+#colorpicker li.silver {
+	background-position: -160px 0px;
+}
+
+#colorpicker li.black {
+	background-position: 0px 0px;
+}
+
+#colorpicker li.white {
+	background-position: -512px 0px;
+}
+
+#colorpicker li.green {
+	background-position: -433px 0px;
+}
+
+#colorpicker li.lobster {
+	background-position: -281px 0px;
+}
+
+#colorpicker li.brown {
+	background-position: -239px 0px;
+}
+
+#colorpicker li.blue {
+	background-position: -200px 0px;
+}
+
+.carousel-indicators {
+		position: absolute;
+		left: 0;
+		bottom: 50px;
+		top: auto;
+		right: auto;
+}
